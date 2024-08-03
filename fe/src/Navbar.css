@@ -1,0 +1,57 @@
+.nav-link{
+    font-size: 15px;
+}
+.box{
+    border-radius: 5px;
+}
+.icon{
+    font-family: 'Oswald', sans-serif;
+font-family: 'Poppins', sans-serif;
+}
+/* Default font size for larger screens */
+.navbar-nav .nav-link {
+    font-size: 1rem; /* Default size */
+  }
+  
+  /* Smaller screens */
+  @media (max-width: 1200px) {
+    .navbar-nav .nav-link {
+      font-size: 0.9rem;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .navbar-nav .nav-link {
+      font-size: 0.8rem;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .navbar-nav .nav-link {
+      font-size: 0.7rem;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .navbar-nav .nav-link {
+      font-size: 0.6rem;
+    }
+  }
+
+  /* Prevent background color change on hover for logout dropdown item */
+.dropdown-menu .dropdown-item {
+    background-color: rgb(196, 69, 69); /* Set the background color */
+    color: rgb(201, 110, 110); /* Set the text color */
+  }
+  
+  .dropdown-menu .dropdown-item:hover {
+    background-color: black; /* Maintain the background color on hover */
+    color: rgb(214, 142, 142); /* Maintain the text color on hover */
+  }
+  
+  .dropdown-menu .dropdown-item:focus {
+    background-color: black; /* Maintain the background color on focus */
+    color: rgb(155, 77, 77); /* Maintain the text color on focus */
+  }
+  
+  
